@@ -1,0 +1,44 @@
+h1#titulo {
+    color: teal;
+}
+
+p strong, p a, tfoot tr th, tbody tr th {
+    color: red;
+}
+
+p span.destacado, thead tr th.especial, tbody tr th.especial, tbody tr td strong {
+    color: orange;
+}
+
+h2#subtitulo, p a em, caption {
+    color: blue;
+}
+
+p span.especial {
+    color: purple;
+}
+
+tbody tr td, div#adicional p a {
+    color: green; 
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: solid, 2px, black;
+    padding: 5px;
+}
+
+div#adicional p {
+    color: olive;
+}
+
+div#adicional p span#especial {
+    color: fuchsia;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
